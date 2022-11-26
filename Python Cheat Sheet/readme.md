@@ -6,7 +6,7 @@
   ```
   
   #### Input
-  Prints a string into the console, and asks the user for a string input.
+  Displays a prompting string on the console and asks the user for a string input.
   ``` Python
   input("What's your name? ")
   ```
@@ -14,7 +14,7 @@
   #### Comments
   Adding a # symbol in font of text lets you make comments on a line of code. The computer will ignore your comments.
   ``` Python
-  #This is a comment
+  # This is a comment
   print("This is code")
   ```
   
@@ -23,14 +23,6 @@
   ``` Python
   my_name = "Angela"
   my_age = 12
-  ```
-  
-  #### The += Operator
-  This is a convient way of saying: "take the previous value and add to it."
-  ``` Python
-  my_age = 12
-  my_age += 4
-  # my_age is now 16
   ```
 
 ## 2. DATA TYPES
@@ -100,11 +92,11 @@
   #### Arithmetic Operators
   You can do mathematical calculations with Python as long as you know the right operators.
   ``` Python
-  3+2   #Add
-  4-1   #Subtract
-  2*3   #Multiply
-  5/2   #Divide
-  5**2  #Exponent
+  3+2   # Add
+  4-1   # Subtract
+  2*3   # Multiply
+  5/2   # Divide
+  5**2  # Exponent
   ```
       
   #### The += Operator
@@ -160,8 +152,8 @@ a missing comma.
   ``` Python
   def my_function():
       print("Hello")
-      name = input("Your name:")
-      print("Hello")
+      name = input("Enter your name:")
+      print(name)
   ```
   
   #### Calling Functions
