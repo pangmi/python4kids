@@ -1,1 +1,1 @@
-# python4kids
+# Python class for beginners or kids
