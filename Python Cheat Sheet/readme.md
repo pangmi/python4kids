@@ -376,32 +376,154 @@ list.
   ```
 
 ## 9. BUILT IN FUNCTIONS
-  #### Input
-  Prints a string into the console, and asks the user for a string input.
+  #### Range
+  Often you will want to generate a range of numbers. You can specify the start, end and step. Start is included, but end is excluded:\
+  start <= range < end
   ``` Python
-  input("What's your name? ")
+  # range(start, end, step)
+  for i in range(6, 0, -2):
+      print(i)
+  
+  # result: 6, 4, 2
+  # 0 is not included.
   ```
 
-  #### Input
-  Prints a string into the console, and asks the user for a string input.
+  #### Randomization
+  The random functions come from the `random` module which needs to be imported. In this case, the start and end are both included\
+  start <= randint <= end
   ``` Python
-  input("What's your name? ")
+  import random
+  
+  # randint(start, end)
+  n = random.randint(2, 5)
+  # n can be 2, 3, 4 or 5.
   ```
 
-  #### Input
-  Prints a string into the console, and asks the user for a string input.
+  #### Round
+  This does a mathematical round. So 3.1 becomes 3, 4.5 becomes 5 and 5.8 becomes 6.
   ``` Python
-  input("What's your name? ")
+  round(4.6)
+  # result 5
   ```
 
-  #### Input
-  Prints a string into the console, and asks the user for a string input.
+  #### abs
+  This returns the absolute value.
   ``` Python
-  input("What's your name? ")
+  abs(-4.6)
+  # result 4.6
   ```
 
-  #### Input
-  Prints a string into the console, and asks the user for a string input.
+## 10. CLASSES & OBJECTS
+  #### Creating a Class
+  You create a class using the class keyword. Note, class names in Python are PascalCased. So to create an empty class
   ``` Python
-  input("What's your name? ")
+  class MyClass:
+      # define class
+  ```
+
+  #### Creating an Object from a Class
+  You can create a new instance of an object by using the class name + ()
+  ``` Python
+  class Car:
+      pass
+  
+  my_toyota = Car()
+  ```
+
+  #### Class Variables
+  You can create a varaiable in a class. The value of the variable will be available to all objects created from the class.
+  ``` Python
+  class Car:
+      color = "black"
+  
+  car1 = Car()
+  print(car1.color)     # black
+  ```
+
+  #### Class Methods
+  You can create a function that belongs to a class, this is known as a method.
+  ``` Python
+  class Car:
+      def drive(self):
+          print("move")
+
+  my_honda = Car()
+  my_honda.drive()
+  ```
+
+  #### The __init__ method
+  The `__init__` method is called every time a new object is created from the class.
+  ``` Python
+  class Car:
+      def __init__(self):
+          print("Building car")
+
+  my_toyota = Car()
+  # You will see "building car" printed.
+  ```
+
+  #### Class Properties / Attributes
+  You can create a variable in the init() of a class so that an object created from the class has access to that variable.
+  ``` Python
+  class Car:
+      def __init__(self, name):
+          self.name = "Jimmy"
+  ```
+
+  #### Class Inheritance
+  When you create a new class, you can inherit the methods and properties of another class.
+  ``` Python
+  class Animal:
+      def breathe(self):
+          print("breathing")
+
+  class Fish(Animal):
+      def breathe(self):
+          super().breathe()
+          print("underwater")
+
+  nemo = Fish()
+  nemo.breathe()
+  # Result:
+  #   breathing
+  #   underwater
+  ```
+
+## 11. MODULES
+  #### Importing
+  Some modules are pre-installed with python e.g. random/datetime\
+  Other modules need to be installed from pypi.org
+  ``` Python
+  import random
+  
+  n = random.randint(3, 10)
+  ```
+
+  #### Aliasing
+  You can use the `as` keyword to give your module a different name.
+  ``` Python
+  import random as r
+  
+  n = r.randint(1, 5)
+  ```
+
+  #### Importing from modules
+  You can import a specific thing from a module. e.g. a function/class/constant\
+  You do this with the `from` keyword. It can save you from having to type the same thing many times.
+  ``` Python
+  from random import randint
+  
+  n = randint(1, 5)
+  ```
+
+  #### Importing Everything
+  You can use the wildcard (\*) to import everything from a module. Beware, this usually reduces code readability.
+  ``` Python
+  from random import *
+  
+  list = [1, 2, 3]
+  choice(list)
+  
+  # More readable/understood
+  #random.choice(list)
   ```
