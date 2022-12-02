@@ -82,4 +82,13 @@
      Have the wish I wish tonight.
      ```
   
+  1. (*Not so challenge* from [edabit](https://edabit.com/challenge/)) Write a function `stutter(word)` that stutters a word as if someone is struggling to read it. The first two letters are repeated twice with an ellipsis `...` and space after each, and then the word is pronounced with a question mark `?`.
+     - Assume all input is at least two characters long.
+     - For example:
+       ``` Python
+       stutter("incredible") ➞ "in... in... incredible?"
+       stutter("enthusiastic") ➞ "en... en... enthusiastic?"
+       stutter("outstanding") ➞ "ou... ou... outstanding?"
+       ```
+  
   
