@@ -116,6 +116,11 @@
   1. Take the following short story and create a program that will prompt the user for the underlined words and replace them with what the user entered.
      > It was a <ins>adjective1</ins> summer day and <ins>personName</ins> was very hot. <ins>personName</ins> decided to <ins>verb1</ins> to the swimming pool. At the pool, the people <ins>verb2</ins>, <ins>verb3</ins>, <ins>verb4</ins> in the water. At the end of the day everyone left and went to the <ins>placeName</ins>
 
+     - Have your program write the story with the underlined words replaced to the Shell window.
+     - Also, have the computer read the story out loud with the replaced words.
+     
+     ***HINT***: You will need a variable for each underlined word
+     
      Example Output:
      > It was a <ins>beautiful</ins> summer day and <ins>Julio</ins> was very hot. <ins>Julio</ins> decided to <ins>run</ins> to the swimming pool. At the pool, the people <ins>jumped</ins>, <ins>skipped</ins>, <ins>played</ins> in the water. At the end of the day everyone left and went to the <ins>store</ins>
 
