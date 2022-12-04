@@ -1,4 +1,4 @@
-#### Class Content
+#### Class Summary
   - Learn how to print out text
   - Learn to write comments in your program
   - Learn to escape characters in text
