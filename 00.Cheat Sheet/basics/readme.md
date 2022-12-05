@@ -1,3 +1,4 @@
+## BASICS
 #### Print
 Prints a string into the console.
 ``` Python
