@@ -1,3 +1,4 @@
+## DATA TYPES
 #### Integers
   Integers are whole numbers.
   ``` Python
