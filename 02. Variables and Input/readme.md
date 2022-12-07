@@ -7,7 +7,7 @@
   - A variable is like a label for a box in memory that holds a value
   - A computer's memory is made up of billions of boxes or locations that store data
   - A variable can reference different values while a program is running
-    ``` Python
+    ```python
     myText = "Clara"
     print(myText)
     
@@ -19,7 +19,7 @@
   - A variable name cannot start with a number
   - A variable name can only contain alphanumeric characters (A-Z, a-z, 0-9) or the underscore `_`
   - Variable names are case-sensitive
-    ``` Python
+    ```python
     # The following code would create three separate variables
     myText = "abc"
     MYText = "abc"
@@ -32,7 +32,7 @@
     - Text (string)
     - Decimal number (float)
     - Boolean (True / False)
-      ``` Python
+      ```python
       # Examples of variable data types
       myText = "Hello"        # a string variable
       cookieCount = 5         # an integer or whole number
@@ -40,14 +40,14 @@
       codingIsCool = True     # a boolean
       ```
   - Variable can hold complex data types called objects
-    ``` Python
+    ```python
     # engine is a complex variable called an object
     engine = pyttsx3.init()
     engine.say("Hello")
     ```
 
 #### Example 4 - Working with variables
-  ``` Python
+  ```python
   firstName = "Matt"
   lastName = "Damon"
 
@@ -62,7 +62,7 @@
   ```
 
 #### Example 5 - Getting keyboard input
-  ``` Python
+  ```python
   firstName = input("Type your first name and then press ENTER: ")
   lastName = input("Type your last name and then press ENTER: ")
   
@@ -71,7 +71,7 @@
   ```
 
 #### Example 5 Continued - Format output with variables (F String)
-  ``` Python
+  ```python
   firstName = input("Type your first name and then press ENTER: ")
   lastName = input("Type your last name and then press ENTER: ")
   
@@ -80,7 +80,7 @@
   ```
 
 #### Example 6 - Starting a word game
-  ``` Python
+  ```python
   # Jane {verb1} to the {place1} and bought a {noun1}
   verb1 = input("Enter a verb: ")
   place1 = input("Enter a place: ")
@@ -89,7 +89,7 @@
   ```
 
 #### Example 7 - Starting a word game 2
-  ``` Python
+  ```python
   import pyttsx3
   
   engine = pyttsx3.init()
@@ -109,7 +109,7 @@
 
 #### Homework
   First of all, for each of the programs you create, please write a comment line which includes your name and current date at the top of your program like below:
-  ``` Python
+  ```python
   # Felix Zuo - 2022-11-27
   ```
 
@@ -124,13 +124,39 @@
      Example Output:
      > It was a <ins>beautiful</ins> summer day and <ins>Julio</ins> was very hot. <ins>Julio</ins> decided to <ins>run</ins> to the swimming pool. At the pool, the people <ins>jumped</ins>, <ins>skipped</ins>, <ins>played</ins> in the water. At the end of the day everyone left and went to the <ins>store</ins>
 
-  1. (*Not that challenging* from [edabit](https://edabit.com/challenge/)) Write a function `stutter(word)` that stutters a word as if someone is struggling to read it. The first two letters are repeated twice with an ellipsis `...` and space after each, and then the word is pronounced with a question mark `?`.
-     - Assume all input is at least two characters long.
-     - For example:
-       ``` Python
-       stutter("incredible") ➞ "in... in... incredible?"
-       stutter("enthusiastic") ➞ "en... en... enthusiastic?"
-       stutter("outstanding") ➞ "ou... ou... outstanding?"
+  1. Create a function `dis` that takes two arguments: the original `price` and the `discount` percentage as integers and returns the final price after the discount.
+     - Examples:
+       ```python
+       dis(1500, 50) ➞ 750
+       dis(89, 20) ➞ 71.2
+       dis(100, 75) ➞ 25
        ```
+
+  1. Create a function `circle_or_square` that, given the radius of a circle and the area of a square, return `True` if the circumference of the circle is greater than the square's perimeter and `False` if the square's perimeter is greater than the circumference of the circle.
+     - Examples:
+       ```python
+       circle_or_square(16, 625) ➞ True
+       circle_or_square(5, 100) ➞ False
+       circle_or_square(8, 144) ➞ True
+       ```
+
+  1. A number `N` is said to be a ***Curzon*** Number if `2**N + 1` is divisible by `2*N + 1`.
   
-  
+     Given a non-negative integer num, implement a function `is_curzon` that returns True if num is a ***Curzon*** number, or False otherwise.
+     - Examples:
+       ```python
+       is_curzon(5) ➞ True
+       # 2 ** 5 + 1 = 33
+       # 2 * 5 + 1 = 11
+       # 33 is a multiple of 11
+       
+       is_curzon(10) ➞ False
+       # 2 ** 10 + 1 = 1025
+       # 2 * 10 + 1 = 21
+       # 1025 is not a multiple of 21
+       
+       is_curzon(14) ➞ True
+       # 2 ** 14 + 1 = 16385
+       # 2 * 14 + 1 = 29
+       # 16385 is a multiple of 29
+       ```
