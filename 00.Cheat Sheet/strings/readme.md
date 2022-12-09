@@ -1,7 +1,8 @@
 ## STRING OPERATIONS
   
   #### String Concatenation
-  You can add strings to string to create a new string. This is called concatenation. It results in a new string.
+  - You can concatenate 2 or more strings to create a new string with `+`
+  - You can repeatedly concatenate the same string with `*`
   ``` Python
   greeting = "Hello " + "Angela"
   # greeting is "Hello Angela"
@@ -9,6 +10,15 @@
   name = "Felix"
   greeting = "Hello " + name + "!"
   # greeting is "Hello Felix!"
+  
+  two_greetings = "Hello" * 2
+  print(two_greetings)
+  # HelloHello
+  
+  n = 4
+  four_greetings = "Hello" * n
+  print(four_greetings)
+  # HelloHelloHelloHello
   ```
       
   #### Escaping a String
