@@ -2,11 +2,12 @@
   #### Arithmetic Operators
   You can do mathematical calculations with Python with the following operators.
   ```python
-  3 + 2   # Add
-  4 - 1   # Subtract
-  2 * 3   # Multiply
-  5 / 2   # Divide
-  5 ** 2  # Exponent
+  3 + 2           # Add
+  4 - 1           # Subtract
+  2 * 3           # Multiply
+  5 / 2           # Divide
+  5 ** 2          # Exponent
+  14 // 5         # Floor division
   ```
       
   #### The += Operator
@@ -26,7 +27,7 @@
   # result is 1
   ```
   
-  #### Functions
+  #### Math Functions
   - The `round()` function rounds a float to the given number of decimal places. Passing `round()` a negative argument results in multiples of 10
     ```python
     round(3.1415926, 2)
@@ -71,3 +72,15 @@
   math.log(100, 10)
   # result is 2.0
   ```
+
+  #### Operator Precedence
+  - Operators are applied in the order they are listed in the table below with `( )` being first and `+ -` last. 
+  - Operators that are in the same row are applied from left to right EXCEPT the `**` exponent operator which is applied right to left.
+  
+  Operators | Meaning | Associativity
+  --- | --- | ---
+  `( )` | Parentheses | Left
+  `**` | Exponent | ***Right***
+  `*, /, //, *` | Multiplication, Division, Floor division, Modulus | Left
+  `+, -` | Addition, Subtraction | Left
+  
