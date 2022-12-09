@@ -1,5 +1,5 @@
 ## CONDITIONALS
-  #### if
+  #### `if`
   This is the basic syntax to test if a condition is true. If so, the indented code will be executed, if not it will be skipped.
   ```python
   n = 5
@@ -7,7 +7,7 @@
       print("Larger than 2")
   ```
 
-  #### else
+  #### `else`
   This is a way to specify some code that will be executed if a condition is false.
   ```python
   age = 18
@@ -17,7 +17,7 @@
       print("Don't drive")
   ```
 
-  #### elif
+  #### `elif`
   In addition to the initial If statement condition, you can add extra conditions to test if the first condition is false.\
   Once an elif condition is true, the rest of the elif conditions are no longer checked and are skipped.
   ```python
@@ -32,7 +32,7 @@
       print("may be good for outdoor activities")
   ```
 
-  #### and
+  #### `and`
   This expects both conditions either side of the `and` to be true.
   ```python
   s = 58
@@ -40,7 +40,7 @@
       print("Your grade is C")
   ```
 
-  #### or
+  #### `or`
   This expects either of the conditions either side of the `or` to be true. Basically, both conditions cannot be false.
   ```python
   age = 12
@@ -48,7 +48,7 @@
       print("Can't drive")
   ```
 
-  #### not
+  #### `not`
   This will flip the original result of the condition. e.g. if it was true then it's now false.
   ```python
   if not 3 > 1:
@@ -58,11 +58,11 @@
   #### Comparison operators
   These mathematical comparison operators allow you to refine your conditional checks.
   ```python
-  >  Greater than
-  <  Lesser than
-  >= Greater than or equal to
-  <= Lesser than or equal to
-  == Is equal to
-  != Is not equal to
+  >       Greater than
+  <       Lesser than
+  >=      Greater than or equal to
+  <=      Lesser than or equal to
+  ==      Is equal to
+  !=      Is not equal to
   ```
   
