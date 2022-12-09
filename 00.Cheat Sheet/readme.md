@@ -5,3 +5,9 @@
 ##### [MATHS](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/maths)
 ##### [ERRORS](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/errors)
 ##### [STRING OPERATIONS](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/strings)
+##### Collection Types:
+  - [LIST](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/list)
+  - [DICTIONARY](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/dictionaries)
+  - [TUPLE](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/tuple)
+  - [SET](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/sets)
+      
