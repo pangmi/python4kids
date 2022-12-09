@@ -112,7 +112,7 @@
   ```python
   # Felix Zuo - 2022-11-27
   ```
-
+  1. Go over [Python Cheat Sheet](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/readme.md)
   1. Take the following short story and create a program that will prompt the user for the underlined words and replace them with what the user entered.
      > It was a <ins>adjective1</ins> summer day and <ins>personName</ins> was very hot. <ins>personName</ins> decided to <ins>verb1</ins> to the swimming pool. At the pool, the people <ins>verb2</ins>, <ins>verb3</ins>, <ins>verb4</ins> in the water. At the end of the day everyone left and went to the <ins>placeName</ins>
 
