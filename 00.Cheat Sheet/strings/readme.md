@@ -3,8 +3,12 @@
   #### String Concatenation
   You can add strings to string to create a new string. This is called concatenation. It results in a new string.
   ``` Python
-  "Hello" + "Angela"
-  # becomes "HelloAngela"
+  greeting = "Hello " + "Angela"
+  # greeting is "Hello Angela"
+  
+  name = "Felix"
+  greeting = "Hello " + name + "!"
+  # greeting is "Hello Felix!"
   ```
       
   #### Escaping a String
