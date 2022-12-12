@@ -142,7 +142,7 @@
 
   1. A number `N` is said to be a ***Curzon*** Number if `2**N + 1` is divisible by `2*N + 1`.
   
-     Given a non-negative integer num, implement a function `is_curzon` that returns True if num is a ***Curzon*** number, or False otherwise.
+     Given a non-negative integer num, create a function `is_curzon` that returns True if num is a ***Curzon*** number, or False otherwise.
      - Examples:
        ```python
        is_curzon(5) ➞ True
@@ -160,3 +160,23 @@
        # 2 * 14 + 1 = 29
        # 16385 is a multiple of 29
        ```
+
+1. Luke Skywalker has family and friends. Help him remind them who is who. Create a function that, given a name, returns the relation of that person to Luke.
+   Person | Relation
+   ------ | --------
+   Darth Vader | father
+   Leia	| sister
+   Han	| brother in law
+   R2D2 |	droid
+   
+   If the name is not in the table above, return "I'm a stranger"
+   
+   - Examples:
+     ```python
+     relation_to_luke("Darth Vader") ➞ "Luke, I am your father."
+     relation_to_luke("Leia")        ➞ "Luke, I am your sister."
+     
+     relation_to_luke("Andor")       ➞ "I'm a stranger."
+     ```
+   
+
