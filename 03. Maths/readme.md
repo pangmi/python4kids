@@ -68,7 +68,7 @@ First of all, for each of the programs you create, please write a comment line w
 
 1. **Sums Up** 
 
-   Create a function 'sums(nums)` that takes an array of numbers, and returns the sum of all the numbers 
+   Create a function `sums(nums)` that takes an array of numbers, and returns the sum of all the numbers 
    
    ***Examples***
    ```python
