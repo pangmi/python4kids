@@ -30,6 +30,9 @@
   #### Math Functions
   - The `round()` function rounds a float to the given number of decimal places. Passing `round()` a negative argument results in multiples of 10
     ```python
+    round(3.1415926)
+    # result is 3
+    
     round(3.1415926, 2)
     # result is 3.14
     
