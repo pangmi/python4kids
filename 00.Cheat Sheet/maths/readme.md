@@ -60,8 +60,11 @@
   ```python
   import math
   
+  math.ceil(4.01)
+  # round up to integer, result is 5
+  
   math.sqrt(9)
-  # result is 3.0
+  # square root, result is 3.0
   
   PI = math.pi
   # PI is 3.141592653589793
