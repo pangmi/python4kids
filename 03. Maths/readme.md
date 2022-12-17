@@ -66,5 +66,31 @@ First of all, for each of the programs you create, please write a comment line w
    - 1 human year equals 7 dog years.
    - For example, if I am 3, then my age in dog years would be 21
 
+1. **Sums Up** 
+
+   Create a function 'sums(nums)` that takes an array of numbers, and returns the sum of all the numbers 
+   
+   ***Examples***
+   ```python
+   sums([1, 5, 6, 3])                  ➞  15
+   sums([16, 3.5, 6])                  ➞  25.5
+   sums([16, 30, 22.8, 4])             ➞  72.8
+   sums([52, 22, 20, 30])              ➞  124
+   sums([10, 12, 32, 4.9, 5, 6, 71])   ➞  140.9
+   ```
+
+1. **End COVID**
+
+   Create a function `end_covid(recovers, new_cases, active_cases)` that takes the number of daily average recovered cases `recovers`, daily average `new_cases`, current `active_cases`, and returns the number of days it will take to reach zero cases.
+   
+   ***Examples***
+   ```python
+   end_covid(4000, 2000, 77000)     ➞ 39
+   end_covid(3000, 2000, 50699)     ➞ 51
+   end_covid(30000, 25000, 390205)  ➞ 79
+   ```
+   - The number of people who recover per day `recovers` will always be greater than daily `new_cases`
+   - You need to round up the number of days needed
+
 
 
