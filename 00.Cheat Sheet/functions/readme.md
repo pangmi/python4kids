@@ -31,7 +31,8 @@ when to trigger the function and how many times.
 function.
   ```python
   def add(n1, n2):
-      return n1 + n2
+      sums = n1 + n2
+      return sums
   
   result = add(2, 3)
   print(result)
