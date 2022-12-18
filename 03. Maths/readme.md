@@ -25,10 +25,9 @@ First of all, for each of the programs you create, please write a comment line w
 ```
 
 1. Go over the following sections in [Python Cheat Sheet](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/readme.md)
+   - [Maths](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/maths/readme.md)
    - [String](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/strings/readme.md)
    - [List](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/list/readme.md)
-   - [Conditionals](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/conditionals/readme.md)
-   - [Loops](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/loops/readme.md)
    - [Functions](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/functions/readme.md)
 1. Write a program to calculate area of rectangle. You will need to ask the user to enter the width and height, and then print out the area like below.
    ```python
@@ -72,11 +71,11 @@ First of all, for each of the programs you create, please write a comment line w
    
    ***Examples***
    ```python
-   sums([1, 5, 6, 3])                  ➞  15
-   sums([16, 3.5, 6])                  ➞  25.5
-   sums([16, 30, 22.8, 4])             ➞  72.8
-   sums([52, 22, 20, 30])              ➞  124
-   sums([10, 12, 32, 4.9, 5, 6, 71])   ➞  140.9
+   sums([1, 5, 6, 3])                  #  15
+   sums([16, 3.5, 6])                  #  25.5
+   sums([16, 30, 22.8, 4])             #  72.8
+   sums([52, 22, 20, 30])              #  124
+   sums([10, 12, 32, 4.9, 5, 6, 71])   #  140.9
    ```
 
 1. **End COVID**
@@ -85,9 +84,9 @@ First of all, for each of the programs you create, please write a comment line w
    
    ***Examples***
    ```python
-   end_covid(4000, 2000, 77000)     ➞ 39
-   end_covid(3000, 2000, 50699)     ➞ 51
-   end_covid(30000, 25000, 390205)  ➞ 79
+   end_covid(4000, 2000, 77000)     # 39
+   end_covid(3000, 2000, 50699)     # 51
+   end_covid(30000, 25000, 390205)  # 79
    ```
    - The number of people who recover per day `recovers` will always be greater than daily `new_cases`
    - You need to round up the number of days needed
