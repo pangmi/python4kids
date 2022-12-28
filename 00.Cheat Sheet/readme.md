@@ -13,6 +13,6 @@
 - [**CONDITIONALS**](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/conditionals/readme.md)
 - [**LOOPS**](https://github.com/pangmi/python4kids/tree/main/00.Cheat%20Sheet/loops/readme.md)
 - [**FUNCTIONS**](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/functions/readme.md)
-- [BUILT IN FUNCTIONS](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/builtinfunctions/readme.md)
+- [BUILT IN FUNCTIONS AND RANDOMIZATION](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/builtinfunctions/readme.md)
 - [CLASSES & OBJECTS](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/classes/readme.md)
 - [MODULES](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/modules/readme.md)
