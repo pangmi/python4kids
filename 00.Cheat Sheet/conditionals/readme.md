@@ -51,8 +51,9 @@
   #### `not`
   This will flip the original result of the condition. e.g. if it was true then it's now false.
   ```python
-  if not 3 > 1:
-      print("something")    # Will not be printed.
+  x = 50
+  if not (20 <= x < 40):
+      print(f"{x} is outside")    # 50 is outside.
   ```
 
   #### Comparison operators
