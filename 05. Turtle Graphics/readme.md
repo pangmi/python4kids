@@ -171,7 +171,7 @@ First of all, for each of the programs you create, please write a comment line w
    - The points `p1` and `p2` are tuples. See [Tuples](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/tuple/readme.md) on how to access them
    - You need to round up calculated distance up to 3 decimal place.
 
-1. ** Sum of Digits**
+1. **Sum of Digits**
 
    Create a function `sum_digits(n)` that takes a number and returns the sum of its digits.
    
