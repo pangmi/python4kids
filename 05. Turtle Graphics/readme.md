@@ -171,6 +171,20 @@ First of all, for each of the programs you create, please write a comment line w
    - The points `p1` and `p2` are tuples. See [Tuples](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/tuple/readme.md) on how to access them
    - You need to round up calculated distance up to 3 decimal place.
 
+1. ** Sum of Digits**
+
+   Create a function `sum_digits(n)` that takes a number and returns the sum of its digits.
+   
+   ***Examples***
+   ```python
+   sum_digits(5)          # 5
+   sum_digits(123)        # 6 (1 + 2 + 3)
+   sum_digits(456)        # 15 (4 + 5 + 6)
+   sum_digits(8972)       # 26 (8 + 9 + 7 + 2)
+   sum_digits(1445566)    # 31 (1 + 4 + 4 + 5 + 5 + 6 + 6)
+   sum_digits(123456789)  # 45 (1 + 2 + 3 + ... + 9)   
+   ```
+
 1. **Same Parity?**
    
    Create a function `parity_analysis(n)` that takes a number as input and returns `True` if the sum of its digits has the same parity as the entire number. Otherwise, return `False`.
@@ -180,6 +194,10 @@ First of all, for each of the programs you create, please write a comment line w
    parity_analysis(243)         # True as 243 is odd and so is 9 (2 + 4 + 3)
    parity_analysis(12)          # False as 12 is even but 3 is odd (1 + 2)
    parity_analysis(182)         # False as 182 is even but 11 is odd (1 + 8 + 2)
-   parity_analysis(3453)        # True as 3453 is odd and 15 is odd(3 + 4 + 5 + 3)
+   parity_analysis(3453)        # True as 3453 is odd and 15 is odd (3 + 4 + 5 + 3)
+   parity_analysis(3)           # True as 3 is odd and 3 is odd (3)
    parity_analysis(123456789)   # True   
    ```
+   - Parity is whether a number is even or odd. If the sum of the digits is even and the number itself is even, return `True`. The same goes if the number is odd and so is the sum of its digits.
+   - Single digits will obviously have the same parities
+
