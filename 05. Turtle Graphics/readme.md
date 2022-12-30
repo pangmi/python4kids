@@ -2,11 +2,11 @@
 
 [Turtle graphics](https://docs.python.org/3.1/library/turtle.html) is a built-in Python library that enables users to create pictures and shapes by providing them with a virtual canvas. The onscreen pen that you use for drawing is called the turtle and this is what gives the library its name.
 
-#### Pixels and Coordinates
+#### 1. Pixels and Coordinates
 
 ![image](https://user-images.githubusercontent.com/36340668/209741255-bdf03bf4-1e98-4dc5-8e68-52eb2faeb380.png)
 
-#### Setting Turtle Speed
+#### 2. Setting Turtle Speed
 You can change the speed of your turtle using the `speed()` function and passing it a value.
 ```python
 # valid speed values are: "slowest", "slow", "normal", "fast", "fastest"
@@ -20,10 +20,10 @@ t.speed(10)   # fast
 t.speed(0)    # fastest
 ```
 
-#### Keep Turtle Window Open in PyCharm
+#### 3. Keep Turtle Window Open in PyCharm
 When running [Turtle graphics](https://docs.python.org/3.1/library/turtle.html) on PyCharm, you need to call `turtle.done()` at the end of the program to prevent the Turtle window from disappearing.
 
-#### Basic Operations
+#### 4. Basic Operations
 ```python
 
 # first, import turtle library
@@ -102,7 +102,7 @@ t.reset()
 
 ```
 
-#### Getting Input
+#### 5. Getting Input
 - Pop up a dialog window for input of a string 
   ```python
   turtle.textinput(title, prompt)
@@ -113,7 +113,7 @@ t.reset()
   turtle.numinput(title, prompt, default=None, minval=None, maxval=None)
   ```
 
-#### Filling Shapes with Color
+#### 6. Filling Shapes with Color
 ```python
 # 1. set filling color
 t.fillcolor("blue")
@@ -130,3 +130,56 @@ for x in range(3):
 t.end_fill()
 
 ```
+
+### Homework
+First of all, for each of the programs you create, please write a comment line which includes your name and current date at the top of your program like below:
+```python
+# Felix Zuo - 2022-11-27
+```
+
+1. Go over the following sections in [Python Cheat Sheet](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/readme.md)
+   - [Tuples](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/tuple/readme.md)
+   - [Conditionals](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/conditionals/readme.md)
+   - [Loops](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/loops/readme.md)
+   
+1. Write a program with `turtle` graphics to create an 800x600 pixel window and then draw a green 300 x 200 rectangle using the `goto()` or `setpos()` function. The top-left corner of the rectangle should be (-150, 150)
+   - ***hint***: you also may need to user `penup()` / `pendown()`
+   
+1. Write a program with `turtle` graphics to create an 800x600 pixel window and then draw a red 300 x 300 square using the `forward()`, `left()` and `right()` functions. The top-left corner of the rectangle should be (-100, 100)
+   - ***hint***: you also may need to user `penup()` / `pendown()`
+
+1. Write a program with `turtle` graphics to create a simple rosette like below:
+
+    ![image](https://user-images.githubusercontent.com/36340668/210025974-7c230460-ba6c-4bd9-923a-cbea7f63a872.png)
+
+1. Write a program with `turtle` graphics to create an emoji like below:
+
+    ![image](https://user-images.githubusercontent.com/36340668/210026018-fd2b2382-70b3-4c94-8cd4-d8606f4e4beb.png)
+
+1. **Distance Between Two Points**
+   
+   Create a function `get_distance(p1, p2)` to find the distance between two points on a coordinate plane. 
+    ![image](https://user-images.githubusercontent.com/36340668/210028411-697449eb-60a3-4040-bdb3-ca24541779cc.png)
+   
+   ***Examples***
+   ```python
+   get_distance((-2, 1), (4, 3))                    # 6.325
+   get_distance((0, 0), (1, 1))                     # 1.414
+   get_distance((10, -5), (8, 16))                  # 21.095
+   get_distance((14239, -11222), (-12301, 12888))   # 35856.153
+   ```
+   - The points `p1` and `p2` are tuples. See [Tuples](https://github.com/pangmi/python4kids/blob/main/00.Cheat%20Sheet/tuple/readme.md) on how to access them
+   - You need to round up calculated distance up to 3 decimal place.
+
+1. **Same Parity?**
+   
+   Create a function `parity_analysis(n)` that takes a number as input and returns `True` if the sum of its digits has the same parity as the entire number. Otherwise, return `False`.
+   
+   ***Examples***
+   ```python
+   parity_analysis(243)         # True as 243 is odd and so is 9 (2 + 4 + 3)
+   parity_analysis(12)          # False as 12 is even but 3 is odd (1 + 2)
+   parity_analysis(182)         # False as 182 is even but 11 is odd (1 + 8 + 2)
+   parity_analysis(3453)        # True as 3453 is odd and 15 is odd(3 + 4 + 5 + 3)
+   parity_analysis(123456789)   # True   
+   ```
